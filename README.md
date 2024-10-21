@@ -4,7 +4,7 @@ This project showcases two responsive cards (Card 1 and Card 2) designed using T
 
 ## Card 1
 
-![Card 1](Card1.png)
+![Card 1](assets/Card1.png)
 
 *Description of Card 1's features or purpose.*
 
