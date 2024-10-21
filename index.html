@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>A single orange</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="config.js"></script>
+  </head>
+  <body class="bg-pale_orange flex justify-center">
+    <main class="bg-white w-full max-w-xs m-10 p-3 md:grid md:grid-cols-2 md:max-w-3xl md:gap-4 md:p-5 shadow-[5px_5px_0_orange]">
+      <img  src="orange.jpg" alt="orange with stem and leaves" />
+      <section>
+        <h1 class="font-title font-bold text-2xl md:text-3xl uppercase">A single orange</h1>
+        <p class="font-title text-md md:text-xl uppercase">with stem and leaves</p>
+        <h2 class="text-5xl font-light my-2">
+          $1<span class="text-lg">.35</span>
+        </h2>
+        <p class="font-lgiht text-gray-500">
+          Experience a burst of sunshine in every bite with this hand-picked,
+          sun-drenched jewel of the citrus world.
+        </p>
+        <section class="flex items-center my-4">
+          <button
+            class="bg-gradient-to-b from-light_orange to-orange text-white uppercase pt-2 pb-1 px-4 
+            flex-grow hover:bg-gradient-to-t md:flex-none"
+          >
+            Add to Cart
+          </button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            class="w-6 h-6 ml-2 transition-transform hover:scale-125 duration-300"
+            stroke="orange"
+          >
+            <path
+              d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+            />
+          </svg>
+        </section>
+
+        <h3 class="uppercase font-light text-lg">Features</h3>
+        <ul
+          class="list-disc marker:text-orange text-sm text-gray-600 font-light"
+        >
+          <li class="ml-3 pl-2">
+            <span class="font-bold">Nature's candy</span>: A symphony of sweet
+            and tasty notes
+          </li>
+          <li class="ml-3 pl-2">
+            <span class="font-bold">Vibrant hue</span>: A virtual feast for the
+            eyes
+          </li>
+          <li class="ml-3 pl-2">
+            <span class="font-bold">Invigorating aroma</span>: A sensory delight
+          </li>
+          <li class="ml-3 pl-2">
+            <span class="font-bold">Nutrient-rich</span>: Bursting with Vitamin
+            C
+          </li>
+          <li class="ml-3 pl-2">
+            <span class="font-bold">Perfect for</span>: snacking, juicing, or
+            culinary creations
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
